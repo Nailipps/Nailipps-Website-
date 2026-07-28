@@ -48,7 +48,12 @@ body{
 }
 
 .products{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:35px;
     padding:80px 10%;
+}
+   
 }
 
 .products h2{
@@ -152,5 +157,35 @@ footer{
 }
     background:#111;
     color:white;
+    .product-card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    padding-bottom:20px;
+    text-align:center;
+}
+
+.product-card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.product-card h3{
+    padding:15px;
+    font-size:22px;
+}
+
+.product-desc{
+    padding:0 20px 15px;
+    color:#666;
+}
+
+.price{
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
     margin-top:80px;
 }
