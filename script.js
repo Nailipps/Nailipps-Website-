@@ -59,7 +59,7 @@ const PRODUCTS = [
 function waLink(productName, fileName, price){
   const imageUrl = `${SITE_URL}/${encodeURI(fileName)}`;
   const msg = encodeURIComponent(
-    `Hi Nailipps! I'd love to order the "${productName}" set (₹${price.toFixed(2)}).\n${imageUrl}\n\n(Note: shipping charges apply based on my location.)`
+  `Hi Nailipps! I'd love to order the "${productName}" set (₹${price.toFixed(2)}).\n${imageUrl}\n\n(Note: shipping charges apply based on your location.)`
   );
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
 }
