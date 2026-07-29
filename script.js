@@ -5,8 +5,8 @@
    the HTML at all.
    ============================================================ */
 
-const WHATSAPP_NUMBER = "YOURNUMBER";     // <-- replace with your WhatsApp number, digits only, country code first (e.g. 919876543210)
-const INSTAGRAM_HANDLE = "YOURUSERNAME";  // <-- replace with your Instagram username
+const WHATSAPP_NUMBER = "919916476333";     // <-- replace with your WhatsApp number, digits only, country code first (e.g. 919876543210)
+const INSTAGRAM_HANDLE = "Nailipps";  // <-- replace with your Instagram username
 const SITE_URL = "https://nailipps.online"; // <-- your live site — used to build the picture link in WhatsApp orders
 
 const CATEGORY_LABELS = {
