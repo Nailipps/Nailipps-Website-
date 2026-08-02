@@ -54,6 +54,11 @@ const PRODUCTS = [
   { name: "Golden Cocoa", file: "Golden Cocoa.png", price: 450, cat: "neutral", desc: "A rich cocoa shade with a golden glow for a luxurious finish." },
   { name: "Love Spell", file: "Love Spell.png", price: 370, cat: "pastel", desc: "A romantic and elegant set designed for a charming statement look." },
   { name: "Pink Muse", file: "Pink Muse1.png", price: 399, cat: "pastel", desc: "A soft pink set with a feminine finish for your main character moment." }
+   { name: "Crimson Elegance", file: "Crimson_Elegance.jfif", price: 899, cat: "bold", desc: "A daring wine-red set with leopard print, gold French tips and cherry charms for a bold, statement-making finish." },
+{ name: "Shadow French", file: "Shadow_French.jfif", price: 450, cat: "neutral", desc: "A modern take on the classic French tip, with a nude base and sleek black tips finished in glitter shimmer." },
+{ name: "Cherry Charm", file: "Cherry_Charm.jfif", price: 899, cat: "bold", desc: "A playful mix of tortoiseshell print, chocolate French tips, 3D florals and gold charms, finished with a sweet cherry accent." },
+{ name: "Pearl Veil", file: "Pearl_Veil.jfif", price: 699, cat: "pastel", desc: "A soft champagne shimmer set with delicate gold linework and a dainty pearl-bead accent for a romantic, bridal-worthy finish." },
+{ name: "Moon Pearl", file: "Moon_Pearl.jfif", price: 370, cat: "pastel", desc: "A luminous pearlescent white set with a soft opalescent shimmer, elegant in its simplicity." },
 ];
 
 function waLink(productName, fileName, price){
