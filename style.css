@@ -450,7 +450,7 @@ section{ padding: 110px var(--edge); }
 .price{
   font-family: var(--font-display);
   font-size: 19px;
-  color: var(--wine);
+  color: #5C4033;
   font-weight: 600;
   margin: 2px 0 0;
 }
