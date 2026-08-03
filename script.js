@@ -5,8 +5,8 @@
    the HTML at all.
    ============================================================ */
 
-const WHATSAPP_NUMBER = "YOURNUMBER";     // <-- replace with your WhatsApp number, digits only, country code first (e.g. 919876543210)
-const INSTAGRAM_HANDLE = "YOURUSERNAME";  // <-- replace with your Instagram username
+const WHATSAPP_NUMBER = "919916476333";     // <-- replace with your WhatsApp number, digits only, country code first (e.g. 919876543210)
+const INSTAGRAM_HANDLE = "Nailipps";  // <-- replace with your Instagram username
 const SITE_URL = "https://nailipps.online"; // <-- your live site — used to build the picture link in WhatsApp orders
 
 const CATEGORY_LABELS = {
@@ -67,7 +67,7 @@ const state = { category: "all", page: 1 };
 function waLink(productName, fileName, price){
   const imageUrl = `${SITE_URL}/${encodeURI(fileName)}`;
   const msg = encodeURIComponent(
-    `Hi Nailipps! I'd love to order the "${productName}" set (₹${price.toFixed(2)}).\n${imageUrl}\n\n(Note: shipping charges apply based on your location.)`
+    `Hi Nailipps! I'd love to order the "${productName}" set (₹${price.toFixed(2)}).\n${imageUrl}\n\n(Note: shipping charges will apply based on your location.)`
   );
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
 }
