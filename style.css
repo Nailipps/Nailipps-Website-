@@ -127,21 +127,25 @@ nav.scrolled{
   padding-bottom: 10px;
   box-shadow: 0 10px 30px -18px rgba(0,0,0,.6);
 }
-.nav-left{ display:flex; align-items:center; gap:12px; }
+.nav-left{ display:flex; align-items:center; gap:18px; }
 nav .logo{
-  height: 56px;
-  width: 56px;
+  height: 72px;
+  width: 72px;
   object-fit: cover;
   border-radius: 50%;
-  border: 1.5px solid rgba(201,161,106,.6);
+  border: 2px solid rgba(201,161,106,.7);
+}
 }
 .brand-name{
   font-family: var(--font-display);
   font-style: italic;
-  font-size: 20px;
-  color: var(--text-on-light);
-  letter-spacing: .01em;
+  font-size: 36px;
+  font-weight: 700;
+  color: #3B2A1E;
+  letter-spacing: .02em;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.08);
   transition: color .4s var(--ease);
+}
 }
 nav.scrolled .brand-name{ color: var(--text-on-dark); }
 .nav-links{
