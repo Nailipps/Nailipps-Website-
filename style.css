@@ -304,6 +304,15 @@ section{ padding: 110px var(--edge); }
   margin: 0 auto 56px;
   text-align: center;
 }
+.mood-line{
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 600;
+  font-size: clamp(28px, 4.5vw, 44px);
+  color: var(--wine);
+  margin: 0 0 20px;
+  line-height: 1.15;
+}
 .section-head h2{
   font-size: clamp(30px, 4vw, 46px);
   font-weight: 500;
@@ -556,12 +565,12 @@ section{ padding: 110px var(--edge); }
 }
 .founder-name .crown{
   position: absolute;
-  top: -22px;
-  right: -6px;
-  width: 22px;
-  height: 22px;
+  top: -20px;
+  right: 4px;
+  width: 20px;
+  height: 20px;
   color: var(--champagne);
-  transform: rotate(12deg);
+  transform: rotate(8deg);
 }
 .founder-by{
   margin: 0;
