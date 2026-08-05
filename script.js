@@ -292,3 +292,27 @@ document.addEventListener("DOMContentLoaded", () => {
   const yearEl = document.getElementById("year");
   if(yearEl) yearEl.textContent = new Date().getFullYear();
 });
+// ===========================
+// HERO AUTO SLIDER
+// ===========================
+document.addEventListener("DOMContentLoaded", () => {
+  const heroSlides = document.querySelectorAll(".hero-slide");
+  if (heroSlides.length > 0) {
+    let currentHeroSlide = 0;
+
+    function showHeroSlide(index) {
+      heroSlides.forEach(slide => slide.classList.remove("active"));
+      heroSlides[index].classList.add("active");
+    }
+
+    showHeroSlide(currentHeroSlide);
+
+    setInterval(() => {
+      currentHeroSlide++;
+      if (currentHeroSlide >= heroSlides.length) {
+        currentHeroSlide = 0;
+      }
+      showHeroSlide(currentHeroSlide);
+    }, 5000); // change to 3000 for 3s, 4000 for 4s, etc.
+  }
+});
