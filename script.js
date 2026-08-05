@@ -316,3 +316,17 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 5000); // change to 3000 for 3s, 4000 for 4s, etc.
   }
 });
+// WhatsApp popup
+document.addEventListener("DOMContentLoaded", () => {
+  const banner = document.getElementById("whatsappBanner");
+  const popup = document.getElementById("popup");
+  const closeBtn = document.getElementById("popupClose");
+
+  if (banner && popup && closeBtn) {
+    banner.addEventListener("click", () => popup.classList.add("open"));
+    closeBtn.addEventListener("click", () => popup.classList.remove("open"));
+    popup.addEventListener("click", (e) => {
+      if (e.target === popup) popup.classList.remove("open"); // click outside closes
+    });
+  }
+});
