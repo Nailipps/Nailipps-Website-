@@ -204,183 +204,39 @@ nav.scrolled .nav-toggle span, nav.scrolled .nav-toggle span::before, nav.scroll
 .nav-toggle.open span::before{ transform: translateY(6px) rotate(45deg); }
 .nav-toggle.open span::after{ transform: translateY(-6px) rotate(-45deg); }
 
-/* ---------------- Hero ---------------- */
-.hero{
-  position: relative;
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.hero-box {
+  background: var(--ivory-dim);
+  padding: 60px var(--edge);
   text-align: center;
-  padding: 140px var(--edge) 90px;
-  background:
-    radial-gradient(60% 55% at 18% 12%, rgba(201,161,106,.22), transparent 60%),
-    radial-gradient(55% 50% at 85% 85%, rgba(123,45,59,.14), transparent 60%),
-    var(--ivory);
-  overflow: hidden;
-  isolation: isolate;
+  border-radius: var(--radius-lg);
+  max-width: 900px;
+  margin: 80px auto;
+  box-shadow: 0 20px 40px -20px rgba(43,28,34,.25);
 }
-.hero::before{
-  content:"";
-  position: absolute; inset: -20%;
-  background: var(--shimmer);
-  background-size: 300% 300%;
-  opacity: .12;
-  filter: blur(60px);
-  animation: drift 22s ease-in-out infinite alternate;
-  z-index: -1;
-}
-@keyframes drift{
-  0%{ background-position: 0% 30%; }
-  100%{ background-position: 100% 70%; }
-}
-.hero .logo{
-  width: 112px; height: 112px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid rgba(201,161,106,.6);
-  margin-bottom: 26px;
-}
-.hero .eyebrow{ color: var(--wine); margin-bottom: 18px; }
-.hero h1{
-  font-size: clamp(44px, 8vw, 96px);
+.hero-inner h1 {
+  font-size: clamp(32px, 6vw, 52px);
   font-style: italic;
-  font-weight: 500;
-  line-height: 1.02;
-  max-width: 16ch;
-  background: var(--shimmer);
-  background-size: 260% 100%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shimmer-move 9s linear infinite;
+  margin-bottom: 20px;
 }
-@keyframes shimmer-move{
-  0%{ background-position: 0% 50%; }
-  100%{ background-position: 260% 50%; }
+.hero-inner h2 {
+  font-size: 28px;
+  margin-top: 40px;
 }
-.hero .description{
-  margin: 26px 0 38px;
-  max-width: 46ch;
-  color: var(--wine-deep);
-  font-size: 22px;
-  font-weight: 800;
-  letter-spacing: .01em;
+.hero-inner p {
+  max-width: 620px;
+  margin: 0 auto 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-on-light-dim);
 }
-.hero .buttons{
+.hero-buttons {
   display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
   justify-content: center;
-}
-.hero .btn2{
-  color: var(--text-on-light);
-  border-color: rgba(43,28,34,.25);
-}
-.hero .btn2:hover{ border-color: var(--wine); color: var(--wine); }
-.scroll-cue{
-  position: absolute;
-  bottom: 34px; left: 50%;
-  transform: translateX(-50%);
-  width: 1px; height: 46px;
-  background: linear-gradient(var(--wine), transparent);
-}
-.scroll-cue::after{
-  content:"";
-  position:absolute; top:0; left:-2.5px;
-  width: 6px; height: 6px; border-radius: 50%;
-  background: var(--wine);
-  animation: cue 2.4s ease-in-out infinite;
-}
-@keyframes cue{
-  0%{ top:0; opacity:0; } 20%{ opacity:1;} 100%{ top: 40px; opacity:0; }
-}
-/* ================= HERO SLIDER ================= */
-
-.hero-slider{
-    position:relative;
-    width:100%;
-    max-width:900px;
-    margin:auto;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 30px;
 }
 
-.hero-slide{
-    display:none;
-    animation:fadeSlide .8s ease;
-}
-
-.hero-slide.active{
-    display:block;
-}
-
-.hero-content{
-    max-width:700px;
-    margin:auto;
-}
-
-.brand-tag{
-    display:inline-block;
-    letter-spacing:5px;
-    font-size:13px;
-    font-weight:600;
-    text-transform:uppercase;
-    color:#A97C50;
-    margin-bottom:18px;
-}
-
-.hero-content h1{
-    font-size:62px;
-    line-height:1.1;
-    margin-bottom:20px;
-}
-
-.hero-content h2{
-    font-size:46px;
-    margin-bottom:20px;
-}
-
-.hero-content p{
-    max-width:620px;
-    margin:0 auto 30px;
-    font-size:18px;
-    line-height:1.8;
-    color:#6b5648;
-}
-
-.story-ending{
-    font-size:28px;
-    margin-top:25px;
-    font-style:italic;
-    color:#A97C50;
-}
-
-.hero-buttons{
-    display:flex;
-    justify-content:center;
-    gap:15px;
-    flex-wrap:wrap;
-}
-
-.btn-outline{
-    background:transparent;
-    border:1px solid #A97C50;
-    color:#A97C50;
-}
-
-.btn-outline:hover{
-    background:#A97C50;
-    color:white;
-}
-
-@keyframes fadeSlide{
-    from{
-        opacity:0;
-        transform:translateY(20px);
-    }
-    to{
-        opacity:1;
-        transform:translateY(0);
     }
 }
 /* ---------------- Section shells ---------------- */
