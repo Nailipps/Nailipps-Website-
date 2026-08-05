@@ -296,7 +296,93 @@ nav.scrolled .nav-toggle span, nav.scrolled .nav-toggle span::before, nav.scroll
 @keyframes cue{
   0%{ top:0; opacity:0; } 20%{ opacity:1;} 100%{ top: 40px; opacity:0; }
 }
+/* ================= HERO SLIDER ================= */
 
+.hero-slider{
+    position:relative;
+    width:100%;
+    max-width:900px;
+    margin:auto;
+}
+
+.hero-slide{
+    display:none;
+    animation:fadeSlide .8s ease;
+}
+
+.hero-slide.active{
+    display:block;
+}
+
+.hero-content{
+    max-width:700px;
+    margin:auto;
+}
+
+.brand-tag{
+    display:inline-block;
+    letter-spacing:5px;
+    font-size:13px;
+    font-weight:600;
+    text-transform:uppercase;
+    color:#A97C50;
+    margin-bottom:18px;
+}
+
+.hero-content h1{
+    font-size:62px;
+    line-height:1.1;
+    margin-bottom:20px;
+}
+
+.hero-content h2{
+    font-size:46px;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    max-width:620px;
+    margin:0 auto 30px;
+    font-size:18px;
+    line-height:1.8;
+    color:#6b5648;
+}
+
+.story-ending{
+    font-size:28px;
+    margin-top:25px;
+    font-style:italic;
+    color:#A97C50;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.btn-outline{
+    background:transparent;
+    border:1px solid #A97C50;
+    color:#A97C50;
+}
+
+.btn-outline:hover{
+    background:#A97C50;
+    color:white;
+}
+
+@keyframes fadeSlide{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
 /* ---------------- Section shells ---------------- */
 section{ padding: 110px var(--edge); }
 .section-head{
