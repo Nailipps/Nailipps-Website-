@@ -301,7 +301,7 @@ nav.scrolled .nav-toggle span, nav.scrolled .nav-toggle span::before, nav.scroll
 section{ padding: 110px var(--edge); }
 .section-head{
   max-width: 640px;
-  margin: 0 auto 56px;
+  margin: 0 auto 24px;
   text-align: center;
 }
 .mood-line{
@@ -318,7 +318,7 @@ section{ padding: 110px var(--edge); }
   font-weight: 500;
   margin-top: 10px;
 }
-.section-head p{ color: var(--text-on-light-dim); margin-top: 14px; font-size: 16px; }
+.section-head p{ color: var(--text-on-light-dim); margin-top: 6px; font-size: 13.5px; }
 .shipping-line{
   font-size: 12.5px !important;
   font-style: italic;
