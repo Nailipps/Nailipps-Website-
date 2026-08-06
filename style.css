@@ -207,13 +207,13 @@ nav.scrolled .nav-toggle span, nav.scrolled .nav-toggle span::before, nav.scroll
 /* ---------------- Hero ---------------- */
 .hero{
   position: relative;
-  min-height: 100svh;
+  min-height: 78svh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 140px var(--edge) 90px;
+  padding: 110px var(--edge) 50px;
   background:
     radial-gradient(60% 55% at 18% 12%, rgba(201,161,106,.22), transparent 60%),
     radial-gradient(55% 50% at 85% 85%, rgba(123,45,59,.14), transparent 60%),
