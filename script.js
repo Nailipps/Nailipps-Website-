@@ -299,7 +299,7 @@ function setupMiniSlider(){
 
   const restartTimer = () => {
     clearInterval(timer);
-    timer = setInterval(() => show(current + 1), 4500);
+    timer = setInterval(() => show(current + 1), 3000);
   };
 
   dots.forEach(dot => {
