@@ -64,7 +64,7 @@ ul{ margin: 0; padding: 0; list-style: none; }
 .eyebrow{
   display: inline-block;
   font-family: var(--font-body);
-  font-size: 12.5px;
+  font-size: 11px;
   letter-spacing: .18em;
   text-transform: uppercase;
   font-weight: 700;
@@ -301,7 +301,7 @@ nav.scrolled .nav-toggle span, nav.scrolled .nav-toggle span::before, nav.scroll
 section{ padding: 70px var(--edge); }
 .section-head{
   max-width: 640px;
-  margin: 0 auto 24px;
+  margin: 0 auto 16px;
   text-align: center;
 }
 .mood-line{
@@ -340,16 +340,16 @@ section{ padding: 70px var(--edge); }
   gap: 10px;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 48px;
+  margin-bottom: 28px;
 }
 .filter-chip{
-  padding: 9px 20px;
+  padding: 7px 16px;
   border-radius: 999px;
   border: 1px solid rgba(43,28,34,.15);
   background: transparent;
   color: var(--text-on-light-dim);
   font-family: var(--font-body);
-  font-size: 13.5px;
+  font-size: 12.5px;
   font-weight: 700;
   letter-spacing: .02em;
   cursor: pointer;
