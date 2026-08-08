@@ -59,6 +59,7 @@ const PRODUCTS = [
   { name: "Cherry Charm", file: "Cherry_Charm.jfif", sizes: "Length- Medium, Shape- Stiletto, Size- Medium", price: 899, cat: "bold", desc: "A playful mix of tortoiseshell print, chocolate French tips, 3D florals and gold charms, finished with a sweet cherry accent." },
   { name: "Pearl Veil", file: "Pearl_Veil.jfif", sizes: "Length- Short, Shape- Almond, Size- Medium", price: 699, cat: "pastel", desc: "A soft champagne shimmer set with delicate gold linework and a dainty pearl-bead accent for a romantic, bridal-worthy finish." },
   { name: "Moon Pearl", file: "Moon_Pearl.jfif", sizes: "Length- Short, Shape- Almond, Size- Medium", price: 370, cat: "pastel", desc: "A luminous pearlescent white set with a soft opalescent shimmer, elegant in its simplicity." }
+   { name: "Wild Mocha", file: "Wild_Mocha.jfif", sizes: "Length- Long, Shape- Stiletto, Size- Medium", price: 1200, cat: "bold", desc: "A fierce mocha-toned set with a bold tiger print and animal stripe accent for a wild, statement-making finish." },
 ];
 
 const PER_PAGE = 10;
