@@ -64,7 +64,7 @@ const PRODUCTS = [
   { name: "Glimmer Nude", file: "Glimmer_Nude.jfif", sizes: "Length- Short, Shape- Square, Size- Short", price: 600, cat: "pastel", desc: "A soft nude base fading into a shimmering gold glitter ombre for an elegant, everyday sparkle." },
   { name: "Brown Sugar", file: "Brown_Sugar.jfif", sizes: "Length- Medium, Shape- Stiletto, Size- Medium", price: 700, cat: "bold", desc: "A rich caramel-brown set with a glossy finish for a bold statement look." },
   { name: "Daisy Dots", file: "Daisy_Dots.jfif", sizes: "Length- Medium, Shape- Almond, Size- Medium", price: 600, cat: "pastel", desc: "A playful pastel set with dainty daisy florals and polka dots for a sweet, cheerful vibe." },
-  { name: "Rose Gold Muse", file: "Rose_Gold_Muse.jfif", sizes: "Length- Medium, Shape- Almond, Size- Medium", price: 700, cat: "pastel", desc: "A dreamy rose gold shimmer set with a soft silver cat eye finish for an effortlessly elegant look." }
+  { name: "Rose Gold Muse", file: "Rose_Gold_Muse.jfif", sizes: "Length- Short, Shape- Almond, Size- Medium", price: 700, cat: "pastel", desc: "A dreamy rose gold shimmer set with a soft silver cat eye finish for an effortlessly elegant look." }
 ];
 
 const PER_PAGE = 10;
